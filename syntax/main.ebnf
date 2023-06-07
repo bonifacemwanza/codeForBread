@@ -1,0 +1,18 @@
+program       ::= statement*
+
+statement     ::= variable_declaration
+               | assignment
+               | print_statement
+               | if_statement
+               | while_statement
+               | ...
+
+variable_declaration ::= "var" identifier "=" expression
+
+assignment    ::= identifier "=" expression
+
+print_statement ::= "print" expression
+
+if_statement  ::= "if" expression "then" statement "else" statement
+
+while_statement ::= "while" expression "do" statement
