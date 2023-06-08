@@ -1,6 +1,6 @@
 import ply.yacc as yacc
-from lexer import tokens
-from ast import ProgramNode
+from .lexer import tokens
+from .ast import ProgramNode
 
 # Define the parser rules
 def p_program(p):

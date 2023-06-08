@@ -1,3 +1,5 @@
+from .ast import ProgramNode
+
 def generate_code(node):
     if isinstance(node, ProgramNode):
         return generate_program(node)
