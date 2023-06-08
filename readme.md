@@ -32,11 +32,11 @@ My Programming Language is a custom programming language designed to take your c
    ```python main.py```
 This will execute the test code defined in main.py and demonstrate the functionality of the programming language
 
-Contributing
+### Contributing
 Contributions are welcome! If you find any issues or have ideas for improvements, please submit them in the issue tracker or create a pull request. Make sure to follow the contribution guidelines specified in the repository.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Author
+### Author
 Boniface C. Mwanza
